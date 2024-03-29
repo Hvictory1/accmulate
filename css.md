@@ -26,3 +26,6 @@ https://link.juejin.cn/?target=https%3A%2F%2Fsegmentfault.com%2Fa%2F119000001813
 5. css-table
 6. flex
 
+## 3.后端返回\n <br>文本 前端展示
+  用pre包起来 使用white-space: pre-line;自适应换行
+
