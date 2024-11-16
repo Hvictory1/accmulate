@@ -56,7 +56,7 @@ Promise.prototype.then = function(onResolved, onRejected) {
       } catch (e) {
         reject(e) // 如果出错，以捕获到的错误做为promise2的结果
       }
-    })
+    }) 
   }
 
   if (self.status === 'rejected') {

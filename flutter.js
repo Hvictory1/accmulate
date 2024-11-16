@@ -6,3 +6,18 @@
 // });
 
 // 3.使用showDialog context传来传去时，这时候使用Provider中的context报错，可以将build中的context先存下来 再用
+
+
+// 4 showModalBottomSheet  键盘弹出可以使用  
+// showModalBottomSheet(
+//   context: context,
+//   builder: (BuildContext context) {
+//     return AnimatedPadding(
+//       padding: EdgeInsets.only(
+//         bottom: MediaQuery.of(context).viewInsets.bottom,
+//       ),
+//       duration: Duration.zero,
+//       child: body
+//     );
+//   }
+// )
