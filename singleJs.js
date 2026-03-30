@@ -48,4 +48,3 @@ const rgbToHex = (r, g, b) => "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toStr
 const average = arr => arr.reduce((a, b) => a + b) / arr.length
 
 
-
